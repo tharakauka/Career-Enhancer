@@ -50,18 +50,24 @@
                                     <div class="form-group">
                                         <label for="email">Username</label>
                                         <input type="text" class="form-control" name="username" id="username" placeholder="Username">
+                                        <span class="text-danger">Username already exsist</span>
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Email Address</label>
                                         <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                                        <span class="text-danger">Invalid email address</span>
+                                        <span class="text-danger">Account with this email already exsist</span>
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Password</label>
                                         <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                                        <span class="text-danger">Please enter password</span>
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Confirm Password</label>
                                         <input type="password" class="form-control" name="conf_password" id="conf_password" placeholder="Confirm Password">
+                                        <span class="text-danger">Please enter confirm password</span>
+                                        <span class="text-danger">Password does not match</span>
                                     </div>
                                     <div class="form-group">
                                         <label for="usertype">Account type</label>
